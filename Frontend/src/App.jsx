@@ -1,8 +1,10 @@
+import Heading from './components/Heading';
+
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <main>
+      <Heading />
+    </main>
   );
 }
 
