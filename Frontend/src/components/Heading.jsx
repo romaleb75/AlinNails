@@ -1,7 +1,7 @@
 import './Heading.css';
 function Heading() {
   return (
-    <main>
+    <section>
       <div className="top-section">
         <div className="top-image">
           <img src="/images/top.jpg" alt="Top Image" />
@@ -18,7 +18,7 @@ function Heading() {
           <img src="/images/logo.png" alt="Logo" />
         </div>
       </div>
-    </main>
+    </section>
   );
 }
 

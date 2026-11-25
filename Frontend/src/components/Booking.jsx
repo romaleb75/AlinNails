@@ -2,12 +2,12 @@ import './Booking.css';
 
 function Booking() {
   return (
-    <main>
+    <section>
       <div className="booking-btn">
         <button onClick="">Book Now</button>
       </div>
       <p>⬈ Hit Me Up If You're Ready To Glow ⬉</p>
-    </main>
+    </section>
   );
 }
 

@@ -8,7 +8,7 @@ import {
 
 function SocialIntro() {
   return (
-    <main>
+    <section>
       <div className="Intro">
         <h1 className="main-title">Laska</h1>
         <h2 className="sub-title">Nails & Eyelashes</h2>
@@ -45,7 +45,7 @@ function SocialIntro() {
           </a>
         </div>
       </div>
-    </main>
+    </section>
   );
 }
 
