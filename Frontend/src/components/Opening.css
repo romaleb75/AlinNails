@@ -1,0 +1,65 @@
+.background-img img {
+  width: 100%;
+  height: 400px;
+  margin-top: 00;
+}
+.container-intro {
+  position: relative;
+}
+
+.intro {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.intro h4 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+.intro h1 {
+  font-size: 32px;
+  font-weight: 400;
+  font-style: italic;
+}
+.intro h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.booking-btn button {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.heart-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.heart-divider span:first-child,
+.heart-divider span:last-child {
+  width: 40px;
+  height: 1px;
+  background-color: black;
+}
+
+.heart-divider span:nth-child(2) {
+  font-size: 16px;
+  color: black;
+}
