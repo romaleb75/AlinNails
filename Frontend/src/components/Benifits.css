@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+.benifits-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  transform: translateY(-70px);
+}
+.benifits-container h3 {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  margin-top: 0;
+}
+.premium,
+.safe,
+.service,
+.easy-booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.premium,
+.safe,
+.service {
+  position: relative;
+}
+
+.premium::after,
+.safe::after,
+.service::after {
+  content: '';
+  position: absolute;
+  right: -35px;
+  top: 50%;
+  transform: translateY(-60%);
+  height: 65px;
+  width: 1px;
+  background-color: #70cfc0;
+}
